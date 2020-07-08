@@ -1,0 +1,271 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	margin:0;
+	overflow-x: hidden !important;
+	background-color: #FFFFFF;
+}
+.burger{
+	display: none;
+}
+.header-all{
+	width: 100%;
+}
+.adaptive-photo{
+	display: none;
+}
+.header-links{
+	display: flex;
+	justify-content:space-between;
+}
+.links{
+	font-size: 30px;
+	font-weight: bold;
+	margin: 25px;
+	font-family: 'Khula', sans-serif;
+	color: #828282;
+	text-decoration: none;
+	transition: 0.3s;
+		   font-family: 'Gilroy';
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url('Gilroy-Bold.woff2') format('woff2'),
+        url('Gilroy-Bold.woff') format('woff'),
+        url('Gilroy-Bold.ttf') format('truetype');
+}
+.links:hover{
+	color:black;
+}
+.text-info{
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+}
+.my-photo1{
+		width: 100%;
+		margin-bottom: 104px;
+}
+.text-info > h1,h2,h3{
+	margin: 0;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.text-info > h1{
+	   font-family: 'Gilroy';
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url('Gilroy-Bold.woff2') format('woff2'),
+        url('Gilroy-Bold.woff') format('woff'),
+        url('Gilroy-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+	font-size: 450%;
+	width: 200px;
+
+}
+.text-info > h2{
+	transform: rotate(-90deg);
+	cursor:pointer;
+	color: #828282;
+	transition: 0.2s;
+}
+.text-info > h2:hover{
+	color:black;
+}
+.text-info > h3{
+	width:11.3%;
+	font-size: 170%;
+	font-weight: 400;
+}
+.about-me{
+	width: 100%;
+	height: 200%;
+	text-align: center;
+	margin: 0;
+}
+.about-me-info{
+	display: inline-block;
+	width: 40%;
+	margin: 0;
+}
+.about-me-info > p{
+	font-size: 200%;
+}
+.about-me-info > h1{
+		   font-family: 'Gilroy';
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url('Gilroy-Bold.woff2') format('woff2'),
+        url('Gilroy-Bold.woff') format('woff'),
+        url('Gilroy-Bold.ttf') format('truetype');
+	color: #070707;
+	font-size: 400%;
+}
+.my-skills{
+	text-align: center;
+	width: 100%;
+	height: 700px;
+}
+.skills-txt > h1{
+		   font-family: 'Gilroy';
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url('Gilroy-Bold.woff2') format('woff2'),
+        url('Gilroy-Bold.woff') format('woff'),
+        url('Gilroy-Bold.ttf') format('truetype');
+	color: #070707;
+	font-size: 400%;
+	margin-bottom: 2.5%;
+}
+.skills-txt > p{
+	font-size:180%;
+	margin-bottom:5.5%;
+}
+.progs{
+	display: inline-block;
+}
+.progs > img{
+	width:166px;
+	height: 208px;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+.my-portfolio{
+	text-align: center;
+	width: 100%;
+}
+.my-portfolio > h1{
+			   font-family: 'Gilroy';
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url('Gilroy-Bold.woff2') format('woff2'),
+        url('Gilroy-Bold.woff') format('woff'),
+        url('Gilroy-Bold.ttf') format('truetype');
+	color: #070707;
+	font-size: 250%;
+	margin-bottom: 3%;
+}
+.examples > img{
+	cursor: pointer;
+	width: auto;
+}
+.examples > a{
+font-family: 'Roboto', sans-serif;
+color: black;
+display: flex;
+justify-content: center;
+font-size: 180%;
+margin-top: 3%;
+margin-bottom: 6%;
+text-decoration: none;
+}
+.examples > a:hover{
+	text-decoration: underline;
+}
+.contact-me{
+	margin-top: 5%;
+	width: 100%;
+	height: 300px;
+	text-align: center;
+}
+.contact-txt > h1{
+	font-family: 'Gilroy';
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url('Gilroy-Bold.woff2') format('woff2'),
+        url('Gilroy-Bold.woff') format('woff'),
+        url('Gilroy-Bold.ttf') format('truetype');
+	color: #070707;
+	font-size: 250%;
+}
+.contact-txt > p,button{
+	font-family: 'Roboto', sans-serif;
+}
+.contact-txt> button{
+	background-color: black;
+	color: white;
+	border:none;
+	border-radius: 100px;
+	width: 210px;
+	height: 55px;
+	font-size: 20px;
+	font-weight: bold;
+	outline: none;
+	cursor:pointer;
+	margin-top: 1%;
+}
+.contact-txt > p {
+	font-size: 25px;
+}
+.icons{
+	text-align: center;
+}
+.icons > img{
+	margin-top: 2%;
+	margin-left:1%;
+	margin-right:1%;
+	margin-bottom: 2%;
+	cursor: pointer;
+}
+.icons > p{
+	color: #828282;
+	font-size: 20px;
+}
+@media screen and (max-width:935px){
+	.body{
+	}
+	.header-links, hr, .my-photo1, .text-info > h2{
+		display: none;
+	}
+	.text-info{
+		display:inline;
+		margin-left: 3%;
+	}
+	.adaptive-photo{
+		width: 100%;
+		display: inline-block;
+		margin: 1%;
+	}
+	.text-info > h3{
+		margin: 5% 0 5% 0;
+		width: auto;
+		display:block;
+
+	}
+	.adaptive-name{
+		display: inline-block;
+	}
+	.burger{
+		display:inline-block;
+		margin:0;
+		float:right;
+		margin-right: 10%;
+		margin-top: 11%;
+		width: 20%;
+		cursor: pointer;
+	}
+	.examples > img{
+		width: 100%;
+	}
+	.contact-me{
+		margin-top: 150px;
+	width: 100%;
+	text-align: center;
+    }
+    .about-me-info > h1{
+    	font-size: 40px;
+    }
+    .about-me-info > p{
+    	font-size: 150%;
+    }
+    .progs{
+    	display: flex;
+    	flex-wrap: wrap;
+    	margin-left: 7%;
+    	margin-top: 10%;
+    }
+    .progs > img{
+    	margin-left: 1%;
+    	margin-right: 1%;
+    	width: 45%;
+    }
+    .examples > a {
+    	font-size: 150%;
+    }
+}
